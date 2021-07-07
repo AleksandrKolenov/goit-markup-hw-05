@@ -114,16 +114,16 @@
                 <h2 class="slogan-title"> Чем мы занимаемся</h2>
                 <ul class="pictures">
                     <li class="item">
-
                         <img src="./images/Клавиатура.jpg" alt="Клавиатура" width="370">
-
-
+                        <p class="inscription">Десктопные приложения</p>
                     </li>
                     <li class="item">
                         <img src="./images/Монитор.jpg" alt="Монитор" width="370">
+                        <p class="inscription">Мобильные приложения</p>
                     </li>
                     <li class="item">
                         <img src="./images/Айпед.jpg" alt="Айпед" width="370">
+                        <p class="inscription">Дизайнерские решения</p>
                     </li>
                 </ul>
             </div>
@@ -402,18 +402,26 @@
         </div>
     </footer>
 
+    <button class="cross" data-modal-open>Заказать услугу</button>
+
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <p></p>
-            <button data-modal-close><svg width="11" height="11">
-                    <use href="./images/symbol-vec (1).svg#"></use>
-                </svg></button>
 
+            <div class="closed">
+                <svg width="11px" height="11px">
+                    <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                </svg>
+            </div>
+        </div>
+        <button data-modal-close></button>
+        <div class="closed">
+            <svg width="11px" height="11px">
+                <use href="./images/symbol-defs.svg#icon-Vector"></use>
+            </svg>
         </div>
     </div>
+    </div>
 
-    <script>
-
-    </script>
-
+    <script src="./js/modal.js"></script>
 </body>
