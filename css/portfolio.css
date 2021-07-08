@@ -345,13 +345,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  border: none;
   border-radius: 4px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 100%;
   line-height: 1.63;
+  padding: 6px 22px;
 
   text-align: center;
   letter-spacing: 0.03em;
 
-  transition-property: background-color;
+transition-property: background-color, color, box-shadow;
 transition-duration: 2500ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -360,7 +361,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--primery-img-color);
   background-color: var(--accent-color);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 100%;
   line-height: 1.63;
    border: none;
   border-radius: 4px;
@@ -368,8 +369,9 @@ border: none;
 border-radius: 4px
   text-align: center;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
 
-   transition-property: background-color;
+   transition-property: background-color, color, box-shadow;
 transition-duration: 2500ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
