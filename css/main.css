@@ -728,7 +728,8 @@ text-transform: uppercase;
   position: fixed;
    width: 528px;
     height: 581px;
-   
+   position: absolute;
+
     
  background: #ffffff;
  border-radius: 4px;
