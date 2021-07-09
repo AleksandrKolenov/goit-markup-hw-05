@@ -717,19 +717,18 @@ text-transform: uppercase;
 }
 
 .modal {
-  position: absolute;
+   position: absolute;
   top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+
 .backdrop {
   position: fixed;
    width: 528px;
     height: 581px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   
     
  background: #ffffff;
  border-radius: 4px;
@@ -746,7 +745,7 @@ text-transform: uppercase;
 
 .cross {
 
-  position: absolute;
+ position: absolute;
  
   background-color: var(--primery-bg-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
